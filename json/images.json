@@ -1,0 +1,25 @@
+{
+    "images": [
+      {
+        "src": "./img/slide1.jpg",
+        "alt": "Gallery Image 1",
+        "description": "A beautiful sunset over the mountains."
+      },
+      {
+        "src": "img/slide2.jpg",
+        "alt": "Gallery Image 2",
+        "description": "A serene lake with clear blue water."
+      },
+      {
+        "src": "img/slide3.png",
+        "alt": "Gallery Image 3",
+        "description": "A calm beach with golden sand and clear skies."
+      },
+      {
+        "src": "img/slide4.jpg",
+        "alt": "Gallery Image 4",
+        "description": "A vibrant city skyline at night."
+      }
+    ]
+  }
+  

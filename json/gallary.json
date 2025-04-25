@@ -1,0 +1,50 @@
+{
+    "gallery": [
+      {
+        "thumb": "img/thumb1.jpg",
+        "full": "img/thumb1.jpg",
+        "caption": "Elegant Evening Dress"
+      },
+      {
+        "thumb": "img/thumb2.jpg",
+        "full": "img/thumb2.jpg",
+        "caption": "Chic Summer Look"
+      },
+      {
+        "thumb": "img/thumb3.jpg",
+        "full": "img/thumb3.jpg",
+        "caption": "Classic Winter Coat"
+      },
+      {
+        "thumb": "img/thumb4.jpg",
+        "full": "img/thumb4.jpg",
+        "caption": "Casual Day Outfit"
+      },
+      {
+        "thumb": "img/thumb5.jpg",
+        "full": "img/thumb5.jpg",
+        "caption": "Floral Skirt Vibes"
+      },
+      {
+        "thumb": "img/thumb6.jpg",
+        "full": "img/thumb6.jpg",
+        "caption": "Elegant Party Gown"
+      },
+      {
+        "thumb": "img/thumb7.jpg",
+        "full": "img/thumb7.jpg",
+        "caption": "Denim Street Style"
+      },
+      {
+        "thumb": "img/thumb8.jpg",
+        "full": "img/thumb8.jpg",
+        "caption": "Minimal White Dress"
+      },
+      {
+        "thumb": "img/thumb9.jpg",
+        "full": "img/thumb9.jpg",
+        "caption": "Trendy Blazer Combo"
+      }
+    ]
+  }
+  

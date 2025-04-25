@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Sevinch</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+            <div class="logo">My Portfolio</div>
+        
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        
+            <div class="nav-links">
+                <a href="index.html" class="current">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallary.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            </div>
+        </nav>
+        
+        <section class="hero">
+            <div class="hero-content">
+            <h1>Hello, I'm Sevinch</h1>
+            <p>Creative Developer | Designer | Problem Solver</p>
+            <a href="about.html" class="btn">About Me</a>
+            </div>
+        </section>
+
+        <section class="process">
+            <h2 class="section-title">MY CREATIVE PROCESS</h2>
+            <p class="section-subtitle">
+              All of my web projects are based off of a practiced formula to get the result that I am looking for
+            </p>
+          
+            <div class="process-steps">
+              <div class="step">
+                <div class="step-img">
+                  <img src="img/structure.png" alt="Discuss the Project" />
+                  <span class="badge">1</span>
+                </div>
+                <h3>DISCUSS THE PROJECT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor!</p>
+              </div>
+          
+              <div class="step">
+                <div class="step-img">
+                  <img src="img/interaction.png" alt="Brainstorming Concept" />
+                  <span class="badge">2</span>
+                </div>
+                <h3>BRAINSTORMING CONCEPT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor!</p>
+              </div>
+          
+              <div class="step">
+                <div class="step-img">
+                  <img src="img/ux.png" alt="UI/UX Planning" />
+                  <span class="badge">3</span>
+                </div>
+                <h3>UI/UX PLANNING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor!</p>
+              </div>
+          
+              <div class="step">
+                <div class="step-img">
+                  <img src="img/idea.png" alt="Interaction" />
+                  <span class="badge">4</span>
+                </div>
+                <h3>INTERACTION</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor!</p>
+              </div>
+            </div>
+          </section>
+
+          <footer class="footer">
+            <div class="footer-container">
+              <div class="footer-left">
+                <h2>Sevinch's Portfolio</h2>
+                <p>Turning ideas into interactive web experiences.</p>
+              </div>
+              <div class="footer-center">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="gallary.html">Projects</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="footer-right">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                  <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a target="_blank" href="https://github.com/sevkasaid/Personal-Website"><i class="fa-brands fa-github"></i></a>
+                  <a target="_blank" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFnyux4Jipe9wAAAZZsxI5YUhnlxFfcg4cA3wCI5gYJkzOhWcXl2ZayeL5c4IeHWQucrjoIg_741Z7NwXQ49zB4oUQIrrTdsprxOsa0LOjs8679q6TnLz8F3SGu0C29P1vuZqw=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fsevinch-saidova-a7704a2a6%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dios_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a target="_blank" href="https://web.telegram.org/k/"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Sevinch. All rights reserved.</p>
+            </div>
+          </footer>
+          
+
+        
+    </body>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+</html>
